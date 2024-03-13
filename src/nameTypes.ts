@@ -1,6 +1,6 @@
 // named type or custom type
 
-type StatusType = 'pending' | 'completed' | 'failed' | ''
+export type StatusType = 'pending' | 'completed' | 'failed' | ''
 
 let currentStatus : StatusType = ''
 

@@ -1,5 +1,6 @@
 "use strict";
 // named type or custom type
+Object.defineProperty(exports, "__esModule", { value: true });
 let currentStatus = '';
 // from api call
 const response = 'pending';

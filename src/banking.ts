@@ -94,3 +94,5 @@ console.log(`Checking Account Balance: ${checkingAccount.getBalance()}`);
 
 checkingAccount.withdraw(800);
 console.log(`Checking Account Balance: ${checkingAccount.getBalance()}`);
+
+console.log('hello');

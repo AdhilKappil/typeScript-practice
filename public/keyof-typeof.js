@@ -4,8 +4,8 @@ const StatusType = {
     Complted: 'completed',
     Failed: 'failed'
 }; // now one can change the value
-function getStatus(orderId, status) {
+function getStatus1(orderId, status) {
     // StatusType[status] = 'solving'
     console.log(orderId + ' : ' + StatusType[status]);
 }
-getStatus(1234, 'Complted');
+getStatus1(1234, 'Complted');

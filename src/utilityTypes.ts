@@ -8,10 +8,10 @@ type UserDetails1 = {
 }
 
 
-// all properties optional fieleds partial so all will be optional 
+// all properties optional fieleds partial so all will be optional we can provide or not
 const userDetails1:Partial<UserDetails1> = {
-    // name:'adhil',
-    // age : 24
+   //  name:'adhil',
+   //  age : 24
 }
 
 
@@ -22,7 +22,7 @@ type User = {
     place : string
  }
 
-//  userd here required so rank is now not oprional its required
+//  used here required so rank is now not oprional its required
  const user : Required <User> = {
     id : 123,
     rank : 1,
@@ -56,5 +56,14 @@ type User = {
 //  }
 
  const food:Food = {}
+
+
+
+//ReturnType
+type PointGenerator = () => { x: number; y: number; };
+const point: ReturnType<PointGenerator> = {
+  x: 10,
+  y: 20
+};
 
 

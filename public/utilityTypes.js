@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// all properties optional fieleds partial so all will be optional 
+// all properties optional fieleds partial so all will be optional we can provide or not
 const userDetails1 = {
-// name:'adhil',
-// age : 24
+//  name:'adhil',
+//  age : 24
 };
-//  userd here required so rank is now not oprional its required
+//  used here required so rank is now not oprional its required
 const user = {
     id: 123,
     rank: 1,
@@ -28,3 +28,7 @@ const status = '';
 //     [index : string] : any
 //  }
 const food = {};
+const point = {
+    x: 10,
+    y: 20
+};

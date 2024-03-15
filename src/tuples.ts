@@ -1,7 +1,7 @@
 // this will strictly follow the position of the type
 const arr : [string,number] = ['adhil',3]
 
-// arr [0] = 5  not possible to do this
+// arr [0] = 5  not possible to do this becuase 0 th position is string
 
 
 // not allow to add string in the position of boolean and more than 3 elements becuse declared 3 types
